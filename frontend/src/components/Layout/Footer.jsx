@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
       <div>&copy; All Rights Reserved By Parag Dahat.</div>
       <div>
-        <Link to={"https://www.facebook.com/profile.php?id=100030535123397"} target="_blank">
+        <Link to={"https://www.facebook.com/"} target="_blank">
           <FaFacebookF />
         </Link>
         <Link to={"https://www.youtube.com/"} target="_blank">
